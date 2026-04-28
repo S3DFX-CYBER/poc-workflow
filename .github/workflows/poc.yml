@@ -9,6 +9,6 @@ jobs:
 
     steps:
       - name: Run vulnerable pattern
-        uses: YOUR-USERNAME/poc-action@main
+        uses: S3DFX-CYBER/poc-action@main
         with:
           github_auth_token: ${{ secrets.GITHUB_TOKEN }}

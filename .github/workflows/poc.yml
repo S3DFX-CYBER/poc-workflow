@@ -1,0 +1,14 @@
+name: poc
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run vulnerable pattern
+        uses: YOUR-USERNAME/poc-action@main
+        with:
+          github_auth_token: ${{ secrets.GITHUB_TOKEN }}
